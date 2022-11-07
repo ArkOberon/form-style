@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-section">
+      <div>
+        <p>Already a member? <a href="#">Sign In</a></p>
+        <h1>Sign up to Dribble</h1>
+        <section>
+          <div class="btn-google"> 
+            <picture>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google logo" />
+            </picture>
+            <p>Registrarse con Google</p>
+          </div>
+          <div class="btn-twitter">
+            <picture>
+              <img src="./svg/twitter.svg" alt="" />
+            </picture>
+          </div>
+        </section>          
+        <div class="divider">
+          <hr>
+          <span> Or </span>
+          <hr>
+        </div>        
+      </div>  
+      <form class="form" action="submit" method="get">
+        <div class="section-inputs">
+          <label for="name">
+            <span>Name</span>
+            <input id="name" name="name" type="text" /> 
+          </label>     
+          <label for="username">
+            <span>Username</span>
+            <input id="name" name="username" type="text"/>
+          </label>
+        </div>  
+        <div class="section-inputs-2">
+          <label for="email">
+            <span>Email</span>
+            <input id="email" name="email" type="email" />
+          </label>
+          <label for="password">
+            <span>Password</span>      
+            <input id="password" name="password" type="password" />
+          </label>
+        </div>                   
+        <label for="checkbox">          
+          <input type="checkbox" id="checkbox">
+          <span>Creating an account means you’re okay with our 
+            <a href="#">Terms of Service</a>, <a href="#">Privacy Policy</a>, and our 
+            default Notification Settings.
+          </span>
+        </label> 
+        <div class="section-submit">
+          <button type="submit" class="btn-submit">
+            Create Account
+          </button> 
+        </div>             
+      </form>
+      <div class="footer-policies">
+        <span>
+          This site is protected by reCAPTCHA and the 
+          Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply. 
+        </span>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
